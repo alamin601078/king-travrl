@@ -1,0 +1,112 @@
+
+.nav-img-container a travel-home{
+    color: #FF5400;
+}
+/* nav-container styles */
+.nav-container{
+    display: flex;
+    border: 10px;
+    justify-content: space-between;
+    
+}
+.nav-img-container{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-img-container a{
+    align-items: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.nav-taitel-container{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.travel-home{
+    color: #FF5400;
+}
+
+/* <!-- Explore Your Travel stared-->  */
+.explore-container{
+    width: 100%vh;
+    height: 100%vh;
+}
+.explore-container{
+   
+}
+.explore-taitel{
+    align-items: center;
+    text-align: center;
+    padding-top: 106px;
+  
+}
+.ex-travel{
+    align-items: center;
+ 
+}
+.explore-container{
+    width: 1170px;
+    height: 500px;
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   /*  position: absolute ;
+    align-items: center; */
+    
+
+}
+
+.explore-icons{
+    align-self: center;
+    justify-content: space-between;
+    gap: 100px;
+    text-align: center;
+
+}
+
+/* popular-container styles */
+.popular-container{
+    display: flex;
+    align-items: center;
+}
+.popular-content{
+    width: 1440px;
+    height: 6940px;
+}
+
+
+/* @media screen and (max-wdth:600px) {
+    .nav-container{
+        height: 200px;
+        flex-direction: column;
+        display: block;
+    }
+    .popular-container{
+        flex-direction: column;
+    }
+} */
+/* @media screen and (main-width:60px) (max-wdth:600px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .popular-container{
+        flex-direction: column;
+    }
+}
+@media screen and (main-width:600px) (max-wdth:992px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .popular-container{
+        flex-direction: column;
+    }
+} */
