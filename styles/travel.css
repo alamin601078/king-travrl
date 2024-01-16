@@ -102,8 +102,8 @@ body{
 /* popular-container styles */
 .popular-container{
     display: flex;
-    width: 1170px;
-    height: 1200px;
+   /*  width: 1170px;
+    height: 1200px; */
     gap: 20px;
 }
 .popular-content{
@@ -133,36 +133,42 @@ body{
     font-weight: 400;
     font-size: 16px;
 }
+/* Choose Your Destination styles */
+
+.destination-teax-content{
+    background-color: aqua;
+    text-align: center;
+}
+.destination-images-l1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+.destination-images-l1{
+    display: flex;
+    position: relative absolute;
+}
+.destination-images-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+.destination-images-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
  
 
-/* @media screen and (max-wdth:600px) {
-    .nav-container{
-        height: 200px;
-        flex-direction: column;
-        display: block;
-    }
-    .popular-container{
-        flex-direction: column;
-    }
-} */
-/* @media screen and (main-width:60px) (max-wdth:600px) {
-    .nav-container{
-        flex-direction: column;
-    }
-    .popular-container{
-        flex-direction: column;
-    }
-}
-@media screen and (main-width:600px) (max-wdth:992px) {
-    .nav-container{
-        flex-direction: column;
-    }
-    .popular-container{
-        flex-direction: column;
-    }
-} */
 
-@media screen and (max-width:600px) {
+
+
+
+
+@media only screen and (max-width:600px) {
     .explore-container{
         width: 400px;
     }
@@ -183,5 +189,20 @@ body{
     .popular-container{
         flex-direction: column;
     }
+    .destination-images-l1, .destination-images-2, .destination-images-3{
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+      
+    }
+   /*  .destination-images-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+   
+    }
+    .destination-images-3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+    } */
     
 }
