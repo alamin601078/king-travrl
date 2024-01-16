@@ -1,7 +1,18 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+</style>
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 
 .nav-img-container a travel-home{
     color: #FF5400;
 }
+#text-color{
+    color: #5A5A5D;
+}
+
 /* nav-container styles */
 .nav-container{
     display: flex;
@@ -33,6 +44,7 @@
 .travel-home{
     color: #FF5400;
 }
+
 
 /* <!-- Explore Your Travel stared-->  */
 .explore-container{
@@ -71,18 +83,57 @@
     gap: 100px;
     text-align: center;
 
+}.explore-icons{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-left: 185px; 
+}
+.whear-you-go .dropdown .select-type .find-now{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #ffffffd4;
 }
 
 /* popular-container styles */
 .popular-container{
     display: flex;
-    align-items: center;
+    width: 1170px;
+    height: 1200px;
+    gap: 20px;
 }
 .popular-content{
-    width: 1440px;
-    height: 6940px;
+    width: 540px;
+    height: 550px;
+}
+.populare-text{
+    color: #5A5A5D;
+    font-size: 16px;
+    height: 100px;
+}
+.explore-list{
+    height: 150px;
 }
 
+.btn-primary{
+    background-color: #FF5400;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    color: aliceblue;
+}
+ .explore-hading{
+    height: 50px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 16px;
+}
+ 
 
 /* @media screen and (max-wdth:600px) {
     .nav-container{
@@ -110,3 +161,27 @@
         flex-direction: column;
     }
 } */
+
+@media screen and (max-width:600px) {
+    .explore-container{
+        width: 400px;
+    }
+    .explore-taitel {
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .explore-icons{
+        flex-direction: column;
+        
+    }
+    .whear-you-go .dropdown .select-type .find-now{
+       /*  display: flex;
+        gap: 10px; */
+        flex-direction: column;
+    }
+    .popular-container{
+        flex-direction: column;
+    }
+    
+}
