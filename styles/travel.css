@@ -136,7 +136,6 @@ body{
 /* Choose Your Destination styles */
 
 .destination-teax-content{
-    background-color: aqua;
     text-align: center;
 }
 .destination-images-l1{
@@ -161,7 +160,13 @@ body{
     row-gap: 24px;
     column-gap: 24px;
 }
-
+/* .destinion-images-1{
+    background-color: #FF5400;
+    position: absolute;
+} */
+/* .images-teax{
+    position: absolute;
+} */
 /* Deals & Discounts atyles */
 
 .discounts-content{
@@ -261,7 +266,105 @@ body{
     width: 610px;
     height: 444px;
 }
- 
+
+/* new-leater-container styles */
+ .new-leater-container{
+    display: flex;
+    gap: 10px;
+ }
+ .new-leater{
+    width: 672px;
+    height: 422px;
+ }
+ .new-leater-images{
+    width: 672px;
+    height: 422px;
+ }
+ .new-leater-taitel{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+ }
+ .new-leater-teax-content{
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 800;
+
+ }
+ .name{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+ }
+ .email{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+ }
+ .subscribe{
+    width: 393px;
+    height: 52px;
+ }
+ .new-leater-char{
+    width: 324px;
+    height: 200px;
+    transform: rotate(-15.628deg);
+    border-radius: 16px;
+    background-color: #FF5400;
+    margin-left: 326px;
+    margin-top: 170px;
+ }
+ .travel-com{
+   transform: rotate(-12.628deg); 
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+ }
+ .save-70{
+    transform: rotate(-15.628deg); 
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 400;
+ }
+ .new-leater-images{
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 0, 98);
+ }
+ /* footer king Travel styles */
+
+ .footer-taitel{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 600px;
+    font-size: 32px;
+ }
+ .footer-content{
+    width: 769px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+    text-align: center;
+ }
+ .footer-conten{
+    text-align: center;
+    margin-left: 350px;
+ }
+ .footer-icons{
+    padding-left: 600px;
+ }
+
+ .al-reserved{
+    text-align: center;
+ }
 
 
 
@@ -307,5 +410,16 @@ body{
         flex-direction: column;
         gap: 20px;
     }
+    .new-leater-container{
+        flex-direction: column;
+        gap: 10px;
+     }
+     .footer-taitel, .footer-icons{
+        padding-left: 30px;
+     }
+     .footer-conten{
+        margin-left: 5px;
+        display: flex;
+     }
    
 }
