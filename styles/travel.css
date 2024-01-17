@@ -161,6 +161,69 @@ body{
     row-gap: 24px;
     column-gap: 24px;
 }
+
+/* Deals & Discounts atyles */
+
+.discounts-content{
+    text-align: center;
+}
+.deales-discount-container div{
+    gap: 24px;
+}
+.bg-images1{
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 50px;
+
+}
+.bg-images2{
+    background-image: url("../Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    padding-top: 56px;
+    padding-left: 56px;
+}
+/* .bg-images3{
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+} */
+.discount-content{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding-top: 55px;
+    padding-left: 50px;
+    margin-top: 56px;
+    margin-left: 480px;
+}
+.discount-content2{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding-top: 55px;
+    padding-left: 50px;
+}
+
+.discount-day{
+    display: flex;
+    gap: 24px;
+}
  
 
 
@@ -194,15 +257,14 @@ body{
         grid-template-columns: repeat(1, 400px);
       
     }
-   /*  .destination-images-2{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-   
+    .bg-images2, .bg-images1 {
+        width: 400px;
+        height: 400px;
     }
-    .destination-images-3{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-       
-    } */
-    
+    .discount-content, .discount-content2{
+        width: 300px;
+        height: 350px;
+        margin: 5px 5px 5px 5px;
+    }
+   
 }
