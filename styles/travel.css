@@ -224,6 +224,43 @@ body{
     display: flex;
     gap: 24px;
 }
+
+/* A Simple Perfect Place To Get Lost styles */
+.all-pak-btn{
+    text-align: center;
+}
+.perfect-place-container{
+    display: flex;
+    gap: 20px;
+}
+
+.perfect-place-content{
+    width: 610px;
+    height: 444px;
+}
+.per-ple-taitel{
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px; 
+}
+.per-ple-content{
+    width: 532px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.per-ple-ul-content{
+    width: 518px;
+}
+.perfect-place-images{
+    background-image: url(../Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 610px;
+    height: 444px;
+}
  
 
 
@@ -265,6 +302,10 @@ body{
         width: 300px;
         height: 350px;
         margin: 5px 5px 5px 5px;
+    }
+    .perfect-place-container{
+        flex-direction: column;
+        gap: 20px;
     }
    
 }
