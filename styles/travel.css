@@ -230,6 +230,42 @@ body{
     gap: 24px;
 }
 
+/* Why Choose Us atyles */
+
+.choose-cntebt{
+    text-align: center;
+}
+.honepidicate-hotel-container{
+    display: flex;
+    gap: 10px;
+}
+.handpi-hotel{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+.world-class-sarvise{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.best-price{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 300px;
+}
+.best-price-content{
+    align-items: center;
+}
+
 /* A Simple Perfect Place To Get Lost styles */
 .all-pak-btn{
     text-align: center;
