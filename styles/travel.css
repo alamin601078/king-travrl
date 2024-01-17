@@ -457,5 +457,12 @@ body{
         margin-left: 5px;
         display: flex;
      }
+     .honepidicate-hotel-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .best-price{
+        margin-left: 10px;
+    }
    
 }
